@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1074</width>
+    <height>805</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>10</y>
+      <width>297</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Class</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBox">
+         <item>
+          <property name="text">
+           <string>airplane</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>bathtub</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>bed</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>bench</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>bookshelf</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>bottle</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>bowl</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>car</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>chair</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>cone</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>cup</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>curtain</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>desk</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>door</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>dresser</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>flower_pot</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>glass_box</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>guitar</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>keyboard</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>lamp</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>laptop</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>mantel</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>monitor</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>night_stand</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>person</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>piano</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>plant</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>radio</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>range_hood</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>sink</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>sofa</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>stairs</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>stool</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>table</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>tent</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>toilt</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>tv_stand</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>vase</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>wardrobe</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>xbox</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Index</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBox_2">
+         <item>
+          <property name="text">
+           <string>0001</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0002</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0003</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0004</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0005</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0006</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0007</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0008</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0009</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0010</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0011</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0012</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0013</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0014</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0015</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0016</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0017</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0018</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0019</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0020</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0021</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0022</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0023</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0024</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0025</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0026</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0027</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0028</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0029</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0030</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0031</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0032</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0033</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0034</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0035</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0036</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0037</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0038</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0039</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0040</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0041</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0042</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0043</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0044</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0045</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0046</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0047</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0048</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0049</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0050</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0051</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0052</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0053</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0054</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0055</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0056</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0057</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0058</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0059</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0060</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0061</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0062</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0063</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0064</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0065</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0066</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0067</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0068</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0069</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0070</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0071</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0072</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0073</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0074</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0075</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0076</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0077</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0078</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0079</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0080</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0081</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0082</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0083</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0084</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0085</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0086</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0087</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0088</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0089</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0090</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0091</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0092</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0093</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0094</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0095</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0096</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0097</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0098</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0099</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0100</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Points</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton">
+       <property name="text">
+        <string>All</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="text">
+        <string>Max</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="text">
+        <string>Load</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Size</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="text">
+          <string>Reduce</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_6">
+         <property name="text">
+          <string>PushButton</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="text">
+          <string>Enlarge</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Points Size</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSlider" name="horizontalSlider">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Color</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSlider" name="horizontalSlider_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="text">
+        <string>Save</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="text">
+        <string>Exit</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1074</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
